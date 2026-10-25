@@ -1,0 +1,44 @@
+Output of: python mp2_rag.py validate
+
+  Validating 2 questions from predefined_questions.jsonl…
+
+  ✓ q1_red_headed_league_assistant
+      Q: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+      Cited: 01_red_headed_league.txt
+      Expected: 01_red_headed_league.txt
+      Facts matched: 2/5
+      Latency: 4458ms
+
+  ✓ q2_speckled_band_murder_weapon
+      Q: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+      Cited: 02_speckled_band.txt
+      Expected: 02_speckled_band.txt
+      Facts matched: 4/6
+      Latency: 3513ms
+
+  Source-match: 2/2
+
+  Validating 3 questions from learner_questions.jsonl…
+
+  ✓ q3_blue_carbuncle_gem
+      Q: How did the Blue Carbuncle end up inside a Christmas goose, and who hid it there?
+      Cited: 03_blue_carbuncle.txt
+      Expected: 03_blue_carbuncle.txt
+      Facts matched: 3/5
+      Latency: 3296ms
+
+  ✓ q4_engineers_thumb_press
+      Q: What was Colonel Lysander Stark's hydraulic press actually being used for, and what was the cover story he gave Victor Hatherley?
+      Cited: 04_engineers_thumb.txt
+      Expected: 04_engineers_thumb.txt
+      Facts matched: 1/5
+      Latency: 2707ms
+
+  ✓ q5_scandal_irene_escape
+      Q: How did Irene Adler discover Holmes's identity and what did she do to stay one step ahead of him?
+      Cited: 05_scandal_in_bohemia.txt
+      Expected: 05_scandal_in_bohemia.txt
+      Facts matched: 0/6
+      Latency: 2424ms
+
+  Source-match: 3/3
